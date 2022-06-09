@@ -1,0 +1,123 @@
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3b5997;
+    padding: 1%;
+    left: 0;
+    color: white;
+}
+
+main{
+    margin-top: 7%;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    margin-bottom: 0.25%;
+}
+
+h2{
+    margin-top: 0.25%;
+}
+
+input{
+    margin: 1% 1% 1% 0;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 2%;
+}
+
+.signup-form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-form > div > * {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-radio{
+    display: flex;
+}
+
+.form-radio > input{
+    margin-right:20%;
+}
+
+.form-radio > div{
+    padding-right: 5%;
+}
+
+.navbar-link{
+    color: white;
+    opacity: 0.5;
+}
+
+label{
+    font-weight: bold;
+}
+.blurb{
+    font-size: 0.75em;
+    opacity: 0.5;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.navbar-button > button{
+    color: white;
+    display: block;
+    width: 150%;
+    height: 50%;
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+
+.navbar-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#signup-confirm{
+    color: white;
+    background-color: #62a14f;
+    border-color: #62a14f;
+    box-shadow: #5a8f46;
+    width: 10%;
+    height: 10%;
+    font-size:2em;
+    margin-top: 1%;
+}
+
+.navbar-field {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1%;
+    padding-right: 0.2%;
+}
+
+#error-display{
+    color: red;
+    font-size: 1.2em;
+    display: none;
+}
